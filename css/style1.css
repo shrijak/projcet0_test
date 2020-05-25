@@ -1,0 +1,31 @@
+body{
+  background: rgba(0, 0, 128, 0.2);
+}
+
+img{
+  width:200px;
+}
+
+.image {
+  width: 140px;
+  float: left;
+  margin-right: 120px; }
+
+  ol {
+    font-size: 1.3rem;
+    color: #000080; }
+
+  ol  ul {
+    font-size: 1.2rem;
+    color: #483D8B;
+   }
+
+   .link {
+     color: #11999e;
+     font-family: "Montserrat", sans-serif;
+     text-decoration: none;
+   }
+
+   a:hover {
+     color: #7fffd4;
+   }
