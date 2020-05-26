@@ -2,81 +2,254 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Web Page!</title>
+        <title>Details</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
           <style>
             img{
-              height:200px;
-              width:200px;
+              width:50%;
+              float: left;
+              margin-right: 10%;
+            }
+            a {
+              color: #11999e;
+              font-family: 'Montserrat', sans-serif;
+              text-decoration: none;
+            }
+
+          .link{
+            margin-left:1300px;
+          }
+
+            a:hover {
+              color: #7fffd4;
+            }
+            td li{
+              font-family: 'Montserrat', sans-serif;
+              font-size: 1.1rem;
+            }
+            div li{
+              color: #66CDAA;
+            }
+            .contact{
+              padding: 10px;
             }
           </style>
 
     </head>
-    <body>
+    <body class="bg-light"><br>
+      <h2 class="text-secondary"> Movies Review</h2><br>
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col text-primary">#</th>
+            <th scope="col text-primary">Movie</th>
+            <th scope="col text-primary">Actors</th>
+            <th scope="col text-primary">Respective Role</th>
+            <th scope="col text-primary">Reviews</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="avengers" scope="row">1</th>
+            <td><h5>Avengers: Endgame</h5></td>
+            <td><ul>
+              <li><a href="https://en.wikipedia.org/wiki/Robert_Downey_Jr.">Robert Downey Jr.</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Chris_Evans_(actor)">Chris Evans</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Mark_Ruffalo">Mark Ruffalo</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Chris_Hemsworth">Chris Hemsworth</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Scarlett_Johansson">Scarlett Johansson</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Jeremy_Renner">Jeremy Renner</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Don_Cheadle">Don Cheadle</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Paul_Rudd">Paul Rudd</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Benedict_Cumberbatch">Benedict Cumberbatch</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Chadwick_Boseman">Chadwick Boseman</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Brie_Larson">Brie Larson</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Tom_Holland_(actor)">Tom Holland</a></li>
+            </ul>
+          </td>
+            <td>
+              <ul>
+              <li>Tony Stark / Iron Man</li>
+              <li>Steve Rogers / Captain America</li>
+              <li>Bruce Banner / Hulk</li>
+              <li>Thor</li>
+              <li>Natasha Romanoff / Black Widow</li>
+              <li>Clint Barton / Hawkeye</li>
+              <li>James Rhodes / War Machine</li>
+              <li>Scott Lang / Ant-Man</li>
+              <li>Doctor Strange</li>
+              <li>T'Challa / Black Panther</li>
+              <li>Carol Danvers / Captain Marvel</li>
+              <li>Peter Parker / Spider-Man</li>
+            </ul>
+          </td>
+            <td><ol>
+              <li class="text-success">An experience you'll gonna remember forever</li>
+              <li class="text-success">The End of an Era!</li>
+              <li  class="text-success">The ending made all 22 movies worth it</li>
+            </ol></td>
+          </tr>
+          <tr>
+            <th id="joker" scope="row">2</th>
+            <td><h5>Joker</h5></td>
+            <td><ul>
+              <li><a href="https://en.wikipedia.org/wiki/Joaquin_Phoenix">Joaquin Phoenix</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Robert_De_Niro">Robert De Niro</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Zazie_Beetz">Zazie Beetz</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Frances_Conroy">Frances Conroy</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Brett_Cullen">Brett Cullen</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Glenn_Fleshler">Glenn Fleshler</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Leigh_Gill">Leigh Gill</a></li>
+            </ul> </td>
+            <td><ul>
+              <li>Arthur Fleck</li>
+              <li>Murray Franklin</li>
+              <li>Sophie Dumond</li>
+              <li>Penny Fleck</li>
+              <li>Thomas Wayne</li>
+              <li>Randall</li>
+              <li>Gary</li>
+            </ul> </td>
+            <td><ol>
+              <li class="text-success">Went for a second time to watch</li>
+              <li class="text-success">Only certain people can relate</li>
+              <li  class="text-success">Perfect in every aspect</li>
+
+            </ol> </td>
+          </tr>
+          <tr>
+            <th id="notebook" scope="row">3</th>
+            <td><h5>The Notebook</h5></td>
+            <td><ul>
+              <li><a href="https://www.imdb.com/name/nm1658940/">Tim Ivey</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Gena_Rowlands">Gena Rowlands</a></li>
+              <li><a href="https://www.imdb.com/name/nm0210915/">Starletta DuPois</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/James_Garner_filmography">James Garner</a></li>
+              <li><a href="https://www.imdb.com/name/nm0333592/?ref_=tt_cl_t6">Ed Grady</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Ryan_Gosling">Ryan Gosling</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Rachel_McAdams">	Rachel McAdams</a></li>
+            </ul> </td>
+            <td><ul>
+              <li>Rower</li>
+              <li>Allie Calhoun</li>
+              <li>Nurse Esther</li>
+              <li>Duke</li>
+              <li>Harry</li>
+              <li>Noah</li>
+              <li>Allie</li>
+            </ul> </td>
+            <td><ol>
+              <li class="text-success">the notebook was a truly remarkable film</li>
+              <li class="text-success">SImple but wonderful</li>
+              <li  class="text-success">Moves you deeply</li>
+
+            </ol> </td>
+          </tr>
+          <tr>
+            <th id="shawshank" scope="row">4</th>
+            <td><h5>The Shawshank Redemption</h5></td>
+            <td><ul>
+              <li><a href="https://en.wikipedia.org/wiki/Tim_Robbins">Tim Robbins</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Morgan_Freeman">Morgan Freeman</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Bob_Gunton">Bob Gunton</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/William_Sadler_(actor)">William Sadler</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Clancy_Brown">Clancy Brown</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Gil_Bellows">Gil Bellows</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Mark_Rolston">	Mark Rolston</a></li>
+            </ul> </td>
+            <td><ul>
+              <li>Andy Dufresne</li>
+              <li>Ellis Boyd</li>
+              <li>Warden Norton</li>
+              <li>Heywood</li>
+              <li>Captain Hadley</li>
+              <li>Tommy</li>
+              <li>	Bogs Diamond</li>
+            </ul> </td>
+            <td><ol>
+              <li class="text-success">Tied for the best movie I have ever seen</li>
+              <li class="text-success">A classic piece of unforgettable film-making.</li>
+              <li  class="text-success">This is How Movies Should Be Made</li>
+
+            </ol> </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <h1 class="text-primary">Top Rated Movies</h1>
+      <br>
       <div class="container">
     <div class="row bg-secondary">
       <div class="col border-right">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg">
+        <h5>The GodFather</h5>
+        <ul>
+          <li>Year: 1972</li>
+          <li>Rating: ⭐9.1</li>
+        </ul>
       </div>
       <div class="col">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+        <h5>The Dark Knight</h5>
+        <ul>
+          <li>Year: 2008</li>
+          <li>Rating: ⭐9.0</li>
+        </ul>
       </div>
 
     </div>
     <div class="row bg-light">
       <div class="col border-right border-success">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+        <h5>The Lord of the Rings: The Return of the King</h5>
+        <ul>
+          <li>Year: 2003</li>
+          <li>Rating: ⭐8.9</li>
+        </ul>
       </div>
       <div class="col border-right border-success">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+        <h5>Inception</h5>
+        <ul>
+          <li>Year: 2010</li>
+          <li>Rating: ⭐8.7</li>
+        </ul>
       </div>
       <div class="col border">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,665,1000_AL_.jpg">
+        <h5>The Matrix </h5>
+        <ul>
+          <li>Year: 1999</li>
+          <li>Rating: ⭐8.6</li>
+        </ul>
       </div>
     </div>
     <div class="row bg-secondary">
       <div class="col border-right">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-      </div>
-      <div class="col border-right">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_SX675_AL_.jpg">
+        <h5>Interstellar</h5>
+        <ul>
+          <li>Year: 2014</li>
+          <li>Rating: ⭐8.5</li>
+        </ul>
       </div>
       <div class="col">
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
-        One of three columns
+        <img src="https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,675,1000_AL_.jpg">
+        <h5>Gladiator</h5>
+        <ul>
+          <li>Year: 2000</li>
+          <li>Rating: ⭐8.5</li>
+        </ul>
       </div>
     </div>
   </div>
+   <br>
     </body>
+
+    <footer>
+      <a class = 'contact' href="contacts.html">Contact Me</a>
+      <a class="link contact" href="movie.html">Go Back</a>
+    </footer>
 </html>

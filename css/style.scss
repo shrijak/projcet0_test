@@ -1,3 +1,5 @@
+$font-name:'Montserrat', sans-serif;
+
 %box_style{
   background-color: #E0FFFF;
   border-radius: 15px;
@@ -20,11 +22,11 @@ h1 {
 
 #body1 {
   text-align: center;
-  background-image: url('cloud.jpg');
+  background-image: url('../images/cloud.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-name;
   background-attachment: fixed;
 }
 
@@ -59,7 +61,7 @@ input[type=submit]:hover {
 }
 
 .signup {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-name;
   font-size: 1.2rem;
   font-weight: bold;
   color: #191970;
@@ -71,7 +73,7 @@ input[type=submit]:hover {
 
 .link {
   color: #11999e;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-name;
   text-decoration: none;
 }
 

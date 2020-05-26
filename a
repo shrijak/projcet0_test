@@ -1,0 +1,36 @@
+[33mcommit 04ce09287a190b0629956e0acdbe006a12d2b183[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: shrijak <dahalshrijak@gmail.com>
+Date:   Mon May 25 21:39:28 2020 +0545
+
+    Third commit
+
+[33mcommit 657762b53498e53b999387159e78de1e5c7c1592[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: c110907 8259a3c
+Author: shrijak <dahalshrijak@gmail.com>
+Date:   Sun May 24 07:43:41 2020 +0545
+
+    Merge branch 'master' of https://github.com/shrijak/projcet0_test
+
+[33mcommit c110907fcf458452b259e97e2843f768c55825c3[m
+Author: shrijak <dahalshrijak@gmail.com>
+Date:   Sun May 24 07:38:51 2020 +0545
+
+    Second commit
+
+[33mcommit 8259a3c3c070e865183a72cb13e4f3bd61be9614[m
+Author: Shrijak Dahal <dahalshrijak@gmail.com>
+Date:   Fri May 22 12:41:41 2020 +0545
+
+    Update README.md
+
+[33mcommit ea7c6679f931730c59df784feebad49f429fe56a[m
+Author: Aayushma pant <34135400+Ayushma99@users.noreply.github.com>
+Date:   Fri May 22 10:26:40 2020 +0545
+
+    Update README.md
+
+[33mcommit 73015e45f36383500b680031e84972c4b110bf07[m
+Author: Shrijak Dahal <dahalshrijak@gmail.com>
+Date:   Fri May 22 10:04:18 2020 +0545
+
+    first commit
