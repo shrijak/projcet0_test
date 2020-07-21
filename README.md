@@ -1,6 +1,6 @@
-# Project 0
+# Project 0 
 
-## Web Programming with Python and JavaScript
+## Harvard University CS50 Web Programming with Python and JavaScript
 
 # index.html
 
