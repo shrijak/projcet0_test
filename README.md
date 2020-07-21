@@ -3,7 +3,7 @@
 ## Harvard University CS50 Web Programming with Python and JavaScript
 
 
-# Page link : https://shrijak.github.io/projcet0_test/
+## Page link : https://shrijak.github.io/projcet0_test/
 
 # index.html
 
