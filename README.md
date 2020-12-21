@@ -8,7 +8,7 @@
 
 # index.html
 
-### - This page is the first page whic is seen by the user
+### - This page is the first page which is seen by the user
 ### - The user can sign up filling the form to be member of this website
 ### - Clicking get started button takes to the page movie.html
 ### - Clicking contact me take to the page contacts.html 
